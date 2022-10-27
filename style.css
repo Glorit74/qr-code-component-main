@@ -55,7 +55,7 @@ main {
 .img-container {
   border-radius: 1.1rem;
   overflow: hidden;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 img {
@@ -67,7 +67,7 @@ h1 {
   font-size: 1.5rem;
   color: var(--clr-text-dark);
   font-weight: 700;
-  margin-bottom: 1em;
+  margin-bottom: 0.75em;
 }
 
 p {
@@ -76,7 +76,7 @@ p {
   font-size: 15px;
   color: var(--clr-text-light);
   font-weight: 400;
-  margin-bottom: 1.75em;
+  margin-bottom: 1.5em;
 }
 
 .attribution {
