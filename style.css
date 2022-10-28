@@ -20,15 +20,19 @@
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Outfit", sans-serif;
   background-color: var(--clr-bg);
 }
 
 main {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 
   border-radius: 2rem;
   padding: 1.1rem 1.1rem;
