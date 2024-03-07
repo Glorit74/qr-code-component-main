@@ -15,12 +15,12 @@
 :root {
   --clr-white: hsl(0, 0%, 100%);
   --clr-bg: hsl(212, 45%, 89%);
-  --clr-text-light: hsl(220, 15%, 55%);
+  --clr-text-light: hsl(220, 15%, 45%);
   --clr-text-dark: hsl(218, 44%, 22%);
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   display: grid;
   place-content: center;
   font-family: "Outfit", sans-serif;
@@ -39,10 +39,10 @@ article {
   gap: 24px;
 }
 
-@media (max-width: 375px) {
-	article {
-		height: 473px;
-	}
+@media (min-width: 375px) {
+  article {
+    height: 473px;
+  }
 }
 
 .img-container {
@@ -54,7 +54,7 @@ article {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   aspect-ratio: 1 / 1;
 }
 
@@ -64,7 +64,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 90%;
+  width: 89%;
 }
 
 h1 {
@@ -93,5 +93,5 @@ p {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 22%);
 }
