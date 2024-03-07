@@ -27,7 +27,7 @@ body {
   background-color: var(--clr-bg);
 }
 
-article {
+main {
   width: 320px;
   height: 498px;
   border-radius: 20px;
@@ -45,7 +45,7 @@ article {
   }
 }
 
-.img-container {
+figure {
   width: 288px;
   height: 288px;
   border-radius: 10px;
@@ -58,7 +58,7 @@ img {
   aspect-ratio: 1 / 1;
 }
 
-.container {
+article {
   width: 288px;
   height: 129px;
   display: flex;
@@ -80,18 +80,4 @@ p {
   letter-spacing: 0.19px;
   color: var(--clr-text-light);
   font-weight: 400;
-}
-
-.attribution {
-  position: fixed;
-  bottom: 10px;
-  width: 50vh;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 22%);
 }
